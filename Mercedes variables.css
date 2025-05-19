@@ -1,0 +1,113 @@
+:root.theme-light {
+  --fone-gradient: repeating-linear-gradient(
+      to right,
+      #c44e30 0px 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(to bottom, #c44e30 0px 2px, transparent 2px 4px),
+    linear-gradient(to bottom, #4848b1, #4848b1);
+  --item-gradient: repeating-linear-gradient(
+      90deg,
+      #4848b1 0px 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(180deg, #4848b1 0px 2px, transparent 2px 4px),
+    linear-gradient(#c44e30, #c44e30);
+
+  --shadow: #c44e30;
+  --border: #1313a1;
+  --border-focus: #1313a1;
+  --bi-hand: #c44e30;
+  --letter-color: #4848b1;
+  --footer-title: #c44e30;
+  --footer-shadow: -3px 0 #1313a1, 0 3px #1313a1, 3px 0 #1313a1, 0 -3px #1313a1;
+  --image-shadow: -1px 0 #1313a1, 0 1px #1313a1, 1px 0 #1313a1, 0 -1px #1313a1;
+  --sparks: #8f290f;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --fone-gradient: repeating-linear-gradient(
+        to right,
+        #c44e30 0px 2px,
+        transparent 2px 4px
+      ),
+      repeating-linear-gradient(to bottom, #c44e30 0px 2px, transparent 2px 4px),
+      linear-gradient(to bottom, #4848b1, #4848b1);
+    --item-gradient: repeating-linear-gradient(
+        90deg,
+        #4848b1 0px 2px,
+        transparent 2px 4px
+      ),
+      repeating-linear-gradient(180deg, #4848b1 0px 2px, transparent 2px 4px),
+      linear-gradient(#c44e30, #c44e30);
+
+    --shadow: #c44e30;
+    --border: #1313a1;
+    --border-focus: #1313a1;
+    --bi-hand: #c44e30;
+    --letter-color: #4848b1;
+    --footer-title: #c44e30;
+    --footer-shadow: -3px 0 #1313a1, 0 3px #1313a1, 3px 0 #1313a1,
+      0 -3px #1313a1;
+    --image-shadow: -1px 0 #1313a1, 0 1px #1313a1, 1px 0 #1313a1, 0 -1px #1313a1;
+    --sparks: #8f290f;
+  }
+}
+
+:root.theme-dark {
+  --fone-gradient: repeating-linear-gradient(
+      to right,
+      #4848b1 0px 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(to bottom, #4848b1 0px 2px, transparent 2px 4px),
+    linear-gradient(to bottom, #c44e30, #c44e30);
+  --item-gradient: repeating-linear-gradient(
+      90deg,
+      #c44e30 0px 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(180deg, #c44e30 0px 2px, transparent 2px 4px),
+    linear-gradient(#4848b1, #4848b1);
+
+  --shadow: #4848b1;
+  --border: #8f290f;
+  --border-focus: #8f290f;
+  --bi-hand: #4848b1;
+  --letter-color: #c44e30;
+  --footer-title: #4848b1;
+  --footer-shadow: -3px 0 #8f290f, 0 3px #8f290f, 3px 0 #8f290f, 0 -3px #8f290f;
+  --image-shadow: -1px 0 #8f290f, 0 1px #8f290f, 1px 0 #8f290f, 0 -1px #8f290f;
+  --sparks: #1313a1;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fone-gradient: repeating-linear-gradient(
+        to right,
+        #4848b1 0px 2px,
+        transparent 2px 4px
+      ),
+      repeating-linear-gradient(to bottom, #4848b1 0px 2px, transparent 2px 4px),
+      linear-gradient(to bottom, #c44e30, #c44e30);
+    --item-gradient: repeating-linear-gradient(
+        90deg,
+        #c44e30 0px 2px,
+        transparent 2px 4px
+      ),
+      repeating-linear-gradient(180deg, #c44e30 0px 2px, transparent 2px 4px),
+      linear-gradient(#4848b1, #4848b1);
+
+    --shadow: #4848b1;
+    --border: #8f290f;
+    --border-focus: #8f290f;
+    --bi-hand: #4848b1;
+    --letter-color: #c44e30;
+    --footer-title: #4848b1;
+    --footer-shadow: -3px 0 #8f290f, 0 3px #8f290f, 3px 0 #8f290f,
+      0 -3px #8f290f;
+    --image-shadow: -1px 0 #8f290f, 0 1px #8f290f, 1px 0 #8f290f, 0 -1px #8f290f;
+    --sparks: #1313a1;
+  }
+}
